@@ -64,5 +64,4 @@ pub fn  main() !void {
     const allocator = std.heap.page_allocator;
     const matrix_2d = try generate_3D(allocator, 500);
     defer free_3D(allocator, matrix_2d); 
-    std.debug.print("Done", .{});
 }
