@@ -41,7 +41,7 @@ fn  free_2D(allocator: std.mem.Allocator, array: [][]u8) void {
     allocator.free(array);
 }
 
-/// Generate a heap-allocated 2D array (square matrix) of random numbers.
+/// Generate a heap-allocated 3D array (square matrix) of random numbers.
 fn  generate_3D(allocator: std.mem.Allocator, size: usize) ![][][]u8 {
     // Allocate memory for the outer array (rows)
     const result = try allocator.alloc([][]u8, size);
