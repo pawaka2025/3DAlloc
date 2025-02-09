@@ -1,4 +1,4 @@
-# High-Dimensional Memory Allocation in Zig
+# Higher-Dimensional Memory Allocation in Zig
 
 ## Overview
 This repository demonstrates an elegant approach to allocating and managing memory for higher-dimensional objects in Zig. It provides a scalable and structured method for handling multi-dimensional arrays using dynamic memory allocation.
