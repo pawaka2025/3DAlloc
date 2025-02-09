@@ -30,7 +30,6 @@ Each allocation function has a corresponding deallocation function:
 const allocator = std.heap.page_allocator;
 const matrix_3d = try generate_3D(allocator, 500);
 defer free_3D(allocator, matrix_3d);
-std.debug.print("Done", .{});
 ```
 
 ## Conceptual Insights
